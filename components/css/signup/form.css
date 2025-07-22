@@ -1,0 +1,88 @@
+/* Form elements - Bold and readable */
+input, textarea, select, button {
+  font-family: var(--font-family-sans-serif) !important;
+  font-weight: var(--font-weight-normal) !important;
+}
+
+/* Labels and form text */
+label, .form-label {
+  font-weight: var(--font-weight-bold) !important;
+  color: var(--heading-color) !important;
+}
+
+/* Form help text */
+.form-text, .form-control-plaintext {
+  font-weight: var(--font-weight-normal) !important;
+  color: var(--body-color) !important;
+}
+
+
+.form-control:focus {
+  border-color: var(--form-control-focus-border-color) !important;
+  box-shadow: var(--form-control-focus-box-shadow) !important;
+}
+
+.form-select:focus {
+  border-color: var(--form-control-focus-border-color) !important;
+  box-shadow: var(--form-control-focus-box-shadow) !important;
+}
+
+/* Brand color for form control focus and select dropdowns */
+.form-control:focus, .form-select:focus, select:focus, textarea:focus {
+  border-color: var(--primary) !important;
+  box-shadow: 0 0 0 0.2rem rgba(var(--primary-rgb), 0.25) !important;
+}
+
+/* Brand color for selected option in dropdowns */
+option:checked, option:focus, select:focus option:checked {
+  background-color: var(--primary) !important;
+  color: #fff !important;
+}
+
+/* Additional rules for all option states */
+option:hover, option:focus, option:active, option:selected {
+  background-color: var(--primary) !important;
+  color: #fff !important;
+}
+
+/* For webkit browsers (Chrome, Safari, Edge) */
+select option:checked, select option:hover, select option:focus {
+  background-color: var(--primary) !important;
+  color: #fff !important;
+}
+
+/* For Firefox */
+select option:checked {
+  background-color: var(--primary) !important;
+  color: #fff !important;
+}
+
+/* Override any default blue highlighting */
+select:focus option:checked,
+select:focus option:hover,
+select option:checked,
+select option:hover {
+  background-color: var(--primary) !important;
+  background: var(--primary) !important;
+  color: #fff !important;
+}
+
+/* For form-select specifically */
+.form-select option:checked,
+.form-select option:hover,
+.form-select option:focus {
+  background-color: var(--primary) !important;
+  color: #fff !important;
+}
+
+/* Brand color for input[type=checkbox] and input[type=radio] */
+input[type="checkbox"]:checked, input[type="radio"]:checked {
+  background-color: var(--primary) !important;
+  border-color: var(--primary) !important;
+}
+::placeholder {
+  font-family: var(--font-family-sans-serif) !important;
+  font-weight: var(--font-weight-normal) !important;
+  color: var(--body-color) !important;
+  opacity: 0.6 !important;
+}

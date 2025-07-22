@@ -1,0 +1,5 @@
+@import "../components/base/typography.css";
+@import "../components/base/variable.css";
+@import "../components/css/customer-signup/button.css";
+@import "../components/css/customer-signup/form.css";
+@import "../components/css/customer-signup/card.css";
