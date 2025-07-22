@@ -1,0 +1,115 @@
+:root {
+  /* Primary Brand Colors */
+    --primary: #43251B;
+    --primary-rgb: 67, 37, 27;
+    --secondary: #5A342A;
+    --secondary-rgb: 90, 52, 42;
+  
+  /* Background Colors */
+  --body-bg: #F8F9FA;
+    --light: #FEF6F0;
+  --light-rgb: 254, 246, 240;
+  
+  /* Text Colors */
+  --body-color: #222222;
+  --heading-color: #43251B;
+  
+  
+  
+  
+  /* Line Heights for Better Readability */
+  --line-height-base: 1.6;
+  --line-height-sm: 1.4;
+  --line-height-lg: 1.8;
+  
+  /* Border Colors */
+  --border-color: #E0DFDE;
+  --border-color-translucent: rgba(224, 223, 222, 0.175);
+  
+  /* Button Colors */
+    --btn-bg: #43251B;
+    --btn-border-color: #43251B;
+    --btn-hover-bg: #5A342A;
+    --btn-hover-border-color: #5A342A;
+    --btn-active-bg: #5A342A;
+    --btn-active-border-color: #5A342A;
+    --btn-focus-shadow-rgb: 67, 37, 27;
+  
+  /* Link Colors */
+  --link-color: #43251B;
+  --link-hover-color: #5A342A;
+  
+  /* Form Colors */
+  --form-control-bg: #FFFFFF;
+  --form-control-border-color: #E0DFDE;
+  --form-control-focus-border-color: #43251B;
+  --form-control-focus-box-shadow: 0 0 0 0.25rem rgba(67, 37, 27, 0.25);
+  
+  /* Card Colors */
+  --card-bg: #FFFFFF;
+  --card-border-color: #E0DFDE;
+  
+  /* Alert Colors */
+  --alert-bg-scale: 0.95;
+  --alert-border-scale: 0.95;
+  
+  /* Badge Colors */
+  --badge-bg: #5A342A;
+  
+  /* Navbar Colors */
+  --navbar-brand-color: #43251B;
+  --navbar-brand-hover-color: #5A342A;
+  --navbar-nav-link-color: #222222;
+  --navbar-nav-link-hover-color: #43251B;
+  --navbar-nav-link-active-color: #43251B;
+  
+  /* Dropdown Colors */
+  --dropdown-bg: #FFFFFF;
+  --dropdown-border-color: #E0DFDE;
+  --dropdown-link-color: #222222;
+  --dropdown-link-hover-color: #43251B;
+  --dropdown-link-hover-bg: #FEF6F0;
+  
+  /* Modal Colors */
+  --modal-bg: #FFFFFF;
+  --modal-header-border-color: #E0DFDE;
+  --modal-footer-border-color: #E0DFDE;
+  
+  /* Table Colors */
+  --table-bg: #FFFFFF;
+  --table-border-color: #E0DFDE;
+  --table-striped-bg: #FEF6F0;
+  --table-hover-bg: #F8F9FA;
+  
+  /* Progress Colors */
+  --progress-bg: #E0DFDE;
+  --progress-bar-bg: #43251B;
+  
+  /* List Group Colors */
+  --list-group-bg: #FFFFFF;
+  --list-group-border-color: #E0DFDE;
+  --list-group-action-hover-bg: #FEF6F0;
+  --list-group-action-active-bg: #43251B;
+  --list-group-action-active-color: #FFFFFF;
+  
+  /* Semantic Colors */
+  --success: #2D5A3D;
+  --success-rgb: 45, 90, 61;
+  --success-light: #E8F5E8;
+  --success-light-rgb: 232, 245, 232;
+  
+  --warning: #B8860B;
+  --warning-rgb: 184, 134, 11;
+  --warning-light: #FFF8E1;
+  --warning-light-rgb: 255, 248, 225;
+  
+  --danger: #8B2635;
+  --danger-rgb: 139, 38, 53;
+  --danger-light: #FDE8E8;
+  --danger-light-rgb: 253, 232, 232;
+  
+  --info: #2C5F8A;
+  --info-rgb: 44, 95, 138;
+  --info-light: #E3F2FD;
+  --info-light-rgb: 227, 242, 253;
+}

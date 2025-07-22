@@ -1,0 +1,67 @@
+:root{
+   /* Typography - Clean, Bold, Readable Fonts */
+--font-family-sans-serif: "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+--font-family-monospace: "SFMono-Regular", "Menlo", "Monaco", "Consolas", "Liberation Mono", "Courier New", monospace;
+
+ 
+
+  /* Font Weights - Bold and Readable */
+  --font-weight-normal: 500;
+  --font-weight-bold: 700;
+  --font-weight-bolder: 800;
+   
+}
+
+/* Base typography for entire application */
+body {
+  font-family: var(--font-family-sans-serif) !important;
+  font-weight: var(--font-weight-normal) !important;
+  line-height: var(--line-height-base) !important;
+  color: var(--body-color) !important;
+}
+
+/* All headings - Bold and Clean */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: var(--font-weight-bold) !important;
+  line-height: var(--line-height-sm) !important;
+  color: var(--heading-color) !important;
+  margin-bottom: 1rem !important;
+}
+
+/* Heading sizes - Clean and Readable */
+h1 {
+  font-size: 2.5rem !important;
+  font-weight: var(--font-weight-bolder) !important;
+}
+
+h2 {
+  font-size: 2rem !important;
+  font-weight: var(--font-weight-bolder) !important;
+}
+
+h3 {
+  font-size: 1.75rem !important;
+  font-weight: var(--font-weight-bold) !important;
+}
+
+h4 {
+  font-size: 1.5rem !important;
+  font-weight: var(--font-weight-bold) !important;
+}
+
+h5 {
+  font-size: 1.25rem !important;
+  font-weight: var(--font-weight-bold) !important;
+}
+
+h6 {
+  font-size: 1rem !important;
+  font-weight: var(--font-weight-bold) !important;
+}
+
+/* Paragraphs - Bold and Readable */
+p {
+  font-weight: var(--font-weight-normal) !important;
+  line-height: var(--line-height-base) !important;
+  margin-bottom: 1rem !important;
+}
