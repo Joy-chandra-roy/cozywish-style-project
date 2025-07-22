@@ -121,7 +121,7 @@
 }
 
 .btn-for-business:focus {
-    outline: 2px solid var(--bs-primary);
+    outline: 2px solid  #43251B;
     outline-offset: 2px;
 }
 
